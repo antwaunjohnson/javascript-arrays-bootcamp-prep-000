@@ -19,6 +19,9 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array
 }
 
+function accessElementInArray(array, index){
+  array.splice(index);
+}
 
 
 
